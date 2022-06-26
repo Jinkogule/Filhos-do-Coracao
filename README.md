@@ -4,7 +4,7 @@ Site desenvolvido para disciplina TCC00339 - Gerência de Projeto e Manutenção
 Trabalho feito por Lucas Pimenta, Danilo Siqueira e Rafael Oliveira.
 
 Link do projeto desenvolvido:
-https://trabalho-adocaocriancas.herokuapp.com/
+https://filhos-do-coracao.herokuapp.com/
 
 Informações Adicionais:
 O projeto foi hospedado utilizando a plataforma Heroku e foi utilizado o serviço Amazon S3 para armazenar os arquivos que são carregados pelos usuários na aplicação.
