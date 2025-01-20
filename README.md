@@ -1,87 +1,19 @@
-# Trabalho de Gerência de Projeto e Manutenção de Software - Filhos do Coração
-Site desenvolvido para disciplina TCC00339 - Gerência de Projeto e Manutenção de Software, ministrada pela Professora Andrea Magalhães no Instituto de Computação da Universidade Federal Fluminense, durante o período 2º/2021.
+# Filhos do Coração
 
-Trabalho feito por Lucas Pimenta, Danilo Siqueira e Rafael Oliveira.
+O **Filhos do Coração** é um software desenvolvido para auxiliar no processo de adoção de crianças. Ele permite gerenciar desde a disponibilização de informações gerais sobre a adoção, incluindo textos e imagens de profissionais da área, depoimentos e contatos, até o registro da adoção em si. O sistema apresenta aos candidatos o processo de adoção, detalhando as etapas e prazos, e informa toda a documentação necessária. Além disso, permite que os usuários tirem dúvidas sobre o processo e a documentação.
 
-Link do projeto desenvolvido:
-https://filhos-do-coracao.herokuapp.com/
+O software apresenta casos de sucesso de adoções de crianças e permite que os usuários verifiquem informações e imagens sobre as crianças disponíveis para adoção, incluindo nome, idade, localização, estado de saúde, fotos e vídeos. O sistema verifica as informações dos candidatos a pais e permite que eles selecionem e adotem uma criança. Em caso de uma adoção não funcionar bem para os pais ou a criança, o sistema permite o cancelamento da adoção. Além disso, possibilita a adoção de famílias de dois ou mais irmãos pelos mesmos pais.
 
-Informações Adicionais:
-O projeto foi hospedado utilizando a plataforma Heroku e foi utilizado o serviço Amazon S3 para armazenar os arquivos que são carregados pelos usuários na aplicação.
+O projeto “Filhos do Coração” foi desenvolvido utilizando a linguagem de programação PHP com o framework Laravel e o banco de dados PostgreSQL. Ele também permite que os usuários enviem imagens das famílias, utilizando o S3 da Amazon para armazená-las.
 
-## Requisitos do trabalho:
+Este projeto foi desenvolvido como parte da disciplina Gerência de Projeto e Manutenção de Software, tendo como principal objetivo a elaboração de um relatório detalhado incluindo o plano de comunicação, o plano de riscos, as estratégias de monitoramento e controle, e o plano de gerência e configuração utilizados no projeto. Além disso, o relatório também destacou as lições aprendidas e as inovações implementadas que foram além do escopo original do projeto.
 
-### Objetivo
+### 🛠  Tecnologias Utilizadas
 
-• Desenvolver um site com informações sobre adoção de crianças.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### Escopo
-
-• Definir a tecnologia para plataforma web – não podem ser utilizados
-templates prontos.
-
-• Definir e implementar a arquitetura de informações.
-
-• Definir e implementar a identidade visual.
-
-• Implementar as funcionalidades solicitadas.
-
-• Implementar as características de inovação sugeridas pelo grupo.
-
-### Atenção
-
-• Cuidado com as questões éticas e legais.
-
-### Especificação
-
-• Ver documento com a especificação do trabalho no Classroom
-
-### Funcionalidades Básicas
-
-### 1. Home Page
-
-• Informações gerais com textos e imagens sobre adoção de crianças, incluindo
-profissionais da área, depoimentos e contatos.
-
-• Menu de navegação com acesso às principais funcionalidades.
-
-• Mecanismo de buscas.
-
-### 2. Processo de Adoção
-
-• O sistema deve apresentar aos candidatos o processo de adoção, detalhando as
-etapas e prazos.
-
-• O sistema deve informar toda a documentação necessária.
-
-• O sistema deve permitir ao usuário tirar as dúvidas sobre o processo e
-documentação.
-
-### 3. Cases de Sucesso
-
-• O sistema deve apresentar cases de adoções de crianças bem sucedidas.
-
-### 4. Adoção de Crianças
-
-• O sistema deve permitir que os usuários verifiquem informações e imagens
-sobre as crianças, incluindo nome, idade, localização, estado de saúde, fotos e
-vídeos.
-
-• O sistema deve verificar as informações dos candidatos a pais.
-
-• O sistema deve permitir que os usuários selecionem e adotem uma criança.
-
-### 5. Cancelamento de Adoção
-
-• O sistema deve permitir que, no caso de uma adoção não funcionar bem para os
-pais ou a criança, a adoção possa ser cancelada.
-
-### 6. Adoção de Família
-• O sistema deve permitir a adoção de famílias de 2 ou irmãos pelos mesmos
-pais.
-
-### Inovação
-• Pelo menos 2 ideias e inovações devem ser sugeridas e implementadas pelo
-grupo, sendo 1 para cada seminário.
-
-• As inovações não podem ser triviais e devem ter de fato um caráter inovador.
+* [PHP](https://www.php.net/) 8.3
+* [Laravel](https://laravel.com/) 8.8
+* [Composer](https://getcomposer.org/) 2.7
+* [PostgreSQL](https://www.postgresql.org/) 16.3
+* [AWS S3](https://aws.amazon.com/pt/s3/)
