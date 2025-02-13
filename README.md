@@ -28,7 +28,7 @@ O sistema fornece um guia completo sobre o processo de adoção, detalhando toda
 
 O projeto foi criado como parte da disciplina Gerência de Projeto e Manutenção de Software, com o objetivo de elaborar um relatório detalhado que inclui o plano de comunicação, plano de riscos, estratégias de monitoramento e controle, além do plano de gerência e configuração utilizados no desenvolvimento do software. O relatório também destacou as lições aprendidas e inovações implementadas que foram além do escopo original.
 
-Projeto disponível em: https://bandejapp.herokuapp.com/.
+Projeto disponível em: https://filhos-do-coracao.free.nf.
 
 ## 📋 Documentação
 
@@ -50,12 +50,12 @@ Projeto disponível em: https://bandejapp.herokuapp.com/.
 > Para mais detalhes sobre as configurações do projeto, veja o arquivo [composer.json](https://github.com/Jinkogule/Filhos-do-Coracao/blob/main/composer.json)
 
 #### **Banco de Dados**
-
--   **[PostgreSQL 16.3](https://www.postgresql.org/)**
+- **Atualmente:** ✅ **[MariaDB 10.6.19](https://mariadb.org/)**
+- **Anteriormente:** ❌ **[PostgreSQL 16.3](https://www.postgresql.org/)** (até [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
 
 #### **Hospedagem**
-
--   **[Heroku](https://www.heroku.com/home)**  →  **[Filhos do Coração](https://Filhos-do-Coracao.herokuapp.com/)**
+- **Atualmente:** ✅ **[InfinityFree](https://www.infinityfree.com/)**  →  **[Filhos do Coração](https://filhos-do-coracao.free.nf)**    
+- **Anteriormente:** ❌ **[Heroku](https://www.heroku.com/)** (até [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
 
 #### **Serviços**
 
