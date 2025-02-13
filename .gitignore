@@ -1,13 +1,29 @@
 /node_modules
 /public/hot
 /vendor
+
+# Arquivos de ambiente
 .env
 .env.backup
+.env.*
+
+# Depuração/teste
 .phpunit.result.cache
 docker-compose.override.yml
-Homestead.json
-Homestead.yaml
 npm-debug.log
 yarn-error.log
+
+# Configurações de editores de código
 /.idea
 /.vscode
+
+# InfinityFree
+/.htaccess
+
+# Cache
+/bootstrap/cache/*
+/storage/framework/*
+/storage/logs/*
+
+# Heroku (não é mais usado)
+/Procfile
