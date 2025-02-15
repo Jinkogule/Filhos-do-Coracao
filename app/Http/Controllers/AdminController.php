@@ -31,11 +31,8 @@ class AdminController extends Controller{
 
         $path = Storage::disk('s3')->put('imagens', $file);
 
-        Storage::disk('s3')->setVisibility($path, 'public');
-        
-
         $data = $request->all();
-            
+
         Crianca::create([
             'nome' => $data['nome'],
             'idade' => $data['idade'],
@@ -45,10 +42,10 @@ class AdminController extends Controller{
             'descricao' => $data['descricao'],
             "file_path" => Storage::disk('s3')->url($path)
         ]);
-        
+
         return redirect("/dashboard")->with('message', 'Criança registrada com sucesso!');
     }
-  
+
     public function aprovarAdocao(Request $request){
         $request->validate([
             'adocao_id' => 'required',
@@ -72,10 +69,10 @@ class AdminController extends Controller{
             'status' => 'required',
         ]);
         $data = $request->all();
-        
+
         DB::table('adocaos')->where('id', $data['adocao_id'])->update(['status' => $data['status']]);
         DB::table('criancas')->where('id', $data['adotada_id'])->update(['status' => 'Esperando adoção']);
-    
+
         return redirect("/dashboard")->with('message', 'Adoção reprovada com sucesso!')->with('warning', $data['adotante_email']);
     }
 
@@ -102,10 +99,10 @@ class AdminController extends Controller{
             'status' => 'required',
         ]);
         $data = $request->all();
-        
+
         DB::table('adocaogrupos')->where('id', $data['adocao_id'])->update(['status' => $data['status']]);
         DB::table('familias')->where('id', $data['familia_id'])->update(['status' => 'Esperando adoção']);
-    
+
         return redirect("/dashboard")->with('message', 'Adoção reprovada com sucesso!')->with('warning', $data['adotante_email']);
     }
 
@@ -116,7 +113,7 @@ class AdminController extends Controller{
 
         return View::make('admin.adocoes_pendentes')->with('events', $events)->with('events2', $events2)->with('events3', $events3);
     }
-    
+
     public function candidatosAPais(){
         $events = DB::table('users')->select('*')->orderByDesc('id')->paginate(100);
 
@@ -143,11 +140,8 @@ class AdminController extends Controller{
 
         $path = Storage::disk('s3')->put('imagens_familia', $file);
 
-        Storage::disk('s3')->setVisibility($path, 'public');
-        
-
         $data = $request->all();
-            
+
         Familia::create([
             'nomes' => $data['nomes'],
             'idades' => $data['idades'],
@@ -158,7 +152,7 @@ class AdminController extends Controller{
             'descricao' => $data['descricao'],
             "file_path" => Storage::disk('s3')->url($path)
         ]);
-        
+
         return redirect("/dashboard")->with('message', 'Criança registrada com sucesso!');
     }
 }

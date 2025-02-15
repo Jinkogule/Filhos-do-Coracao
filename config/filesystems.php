@@ -45,14 +45,12 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key' => 'AKIARA2BDGJ4IIZ4GBMG',
-            'secret' => '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',
-            'region' => 'sa-east-1',
-            'bucket' => 'adocaocriancas-laravel-imagens',
+            'key' => env('AWS_ACCESS_KEY_ID'),
+            'secret' => env('AWS_SECRET_ACCESS_KEY'),
+            'region' => env('AWS_DEFAULT_REGION'),
+            'bucket' => env('AWS_BUCKET'),
             'url' => env('AWS_URL'),
-            'endpoint' => env('AWS_ENDPOINT'),
-            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
-            'visibility' => 'public'
+            'visibility' => 'public',
         ],
     ],
 
