@@ -24,12 +24,18 @@ class AdminController extends Controller{
             'idade' => 'required',
             'sexo' => 'required',
             'estado_de_saude' => 'required',
-            'image' => 'required|mimes:jpeg,png,jpg,jfif,svg|max:2048']
+            'localizacao' => 'required',
+            'descricao' => 'required',
+            'imagem' => 'required|mimes:jpeg,png,jpg,jfif,svg|max:2048']
         );
 
-        $file = $request->file('image');
+        $file = $request->file('imagem');
 
-        $path = Storage::disk('s3')->put('imagens', $file);
+        $path = Storage::disk('s3')->putFile('imagens', $file);
+
+        if (!$path) {
+            return back()->withErrors(['imagem' => 'Ocorreu um erro ao enviar a imagem.']);
+        }
 
         $data = $request->all();
 
@@ -133,13 +139,16 @@ class AdminController extends Controller{
             'q_irmaos' => 'required',
             'localizacao' => 'required',
             'descricao' => 'required',
-            'image' => 'required|mimes:jpeg,png,jpg,jfif,svg|max:2048']
+            'imagem' => 'required|mimes:jpeg,png,jpg,jfif,svg|max:2048']
         );
 
-        $file = $request->file('image');
+        $file = $request->file('imagem');
 
-        $path = Storage::disk('s3')->put('imagens_familia', $file);
+        $path = Storage::disk('s3')->putFile('imagens_familia', $file);
 
+        if (!$path) {
+            return back()->withErrors(['imagem' => 'Ocorreu um erro ao enviar a imagem.']);
+        }
         $data = $request->all();
 
         Familia::create([
@@ -153,6 +162,6 @@ class AdminController extends Controller{
             "file_path" => Storage::disk('s3')->url($path)
         ]);
 
-        return redirect("/dashboard")->with('message', 'Criança registrada com sucesso!');
+        return redirect("/dashboard")->with('message', 'Família registrada com sucesso!');
     }
 }

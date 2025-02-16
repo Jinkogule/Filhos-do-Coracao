@@ -75,16 +75,16 @@
                     @endif
                 </div>
                 <div class="form-group mb-4">
-                    <label for="image" style="color: #fff">Foto das crianças:</label>
-                    <input type="file" id="image" name="image" required>
+                    <label for="imagem" style="color: #fff">Foto das crianças:</label>
+                    <input type="file" id="imagem" name="imagem" required>
                 </div>
                 <div class="row">
                     <div class="d-grid mx-auto mb-4">
                         <button type="submit" class="btn btn-success btn-block">Enviar</button>
                     </div>
-                </div>       
-            </form>    
+                </div>
+            </form>
         </div>
-       
+
     </body>
 </html>
