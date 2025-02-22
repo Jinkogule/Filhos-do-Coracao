@@ -36,8 +36,8 @@ Route::middleware(['auth', 'isAdmin'])->group(function () {
 
     Route::get('registro_de_crianca', [AdminController::class, 'registro_de_crianca'])->name('registro_de_crianca');
     Route::get('registro_de_familia', [AdminController::class, 'registro_de_familia'])->name('registro_de_familia');
-    Route::post('registrarCrianca', [AdminController::class, 'store'])->name('registrarCrianca');
-    Route::post('registrarFamilia', [AdminController::class, 'storeFamilia'])->name('registrarFamilia');
+    Route::post('registrarCrianca', [AdminController::class, 'registrarCrianca'])->name('registrarCrianca');
+    Route::post('registrarFamilia', [AdminController::class, 'registrarFamilia'])->name('registrarFamilia');
     Route::post('aprovarAdocao', [AdminController::class, 'aprovarAdocao'])->name('aprovarAdocao');
     Route::post('reprovarAdocao', [AdminController::class, 'reprovarAdocao'])->name('reprovarAdocao');
     Route::post('aprovarAdocaoGrupo', [AdminController::class, 'aprovarAdocaoGrupo'])->name('aprovarAdocaoGrupo');

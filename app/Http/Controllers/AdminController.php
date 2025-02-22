@@ -18,7 +18,7 @@ class AdminController extends Controller{
         return view('admin.registro_de_crianca');
     }
 
-    public function store(Request $request){
+    public function registrarCrianca(Request $request){
         $request->validate([
             'nome' => 'required',
             'idade' => 'required',
@@ -130,7 +130,7 @@ class AdminController extends Controller{
         return view('admin.registro_de_familia');
     }
 
-    public function storeFamilia(Request $request){
+    public function registrarFamilia(Request $request){
         $request->validate([
             'nomes' => 'required',
             'idades' => 'required',
