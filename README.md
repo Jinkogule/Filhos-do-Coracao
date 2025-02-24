@@ -57,9 +57,10 @@ Projeto disponível em: https://filhos-do-coracao.free.nf.
 - **Atualmente:** ✅ **[InfinityFree](https://www.infinityfree.com/)**  →  **[Filhos do Coração](https://filhos-do-coracao.free.nf)**    
 - **Anteriormente:** ❌ **[Heroku](https://www.heroku.com/)** (até [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
 
-#### **Serviços**
+#### **Serviços e Add-ons**
 
 -   **[AWS S3](https://aws.amazon.com/pt/s3/)**
+-   **[Heroku Postgres](https://devcenter.heroku.com/articles/heroku-postgresql)** ❌ (até [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
 
 ## ✒ Autor
 
