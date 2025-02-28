@@ -41,34 +41,54 @@ Projeto disponível em: https://filhos-do-coracao.free.nf.
 
 ## 🛠 Tecnologias
 
-#### **Website**  ([PHP](https://www.php.net/)  +  [Laravel](https://laravel.com/))
+### **Website**  ([PHP](https://www.php.net/)  +  [Laravel](https://laravel.com/))
 
 -   **[PHP 8.3](https://www.php.net/)**
 -   **[Laravel 8.8](https://laravel.com/)**
 -   **[Composer 2.7](https://getcomposer.org/)**
 
-> Para mais detalhes sobre as configurações do projeto, veja o arquivo [composer.json](https://github.com/Jinkogule/Filhos-do-Coracao/blob/main/composer.json)
+> Para mais detalhes sobre as configurações do projeto, veja o arquivo **[composer.json](https://github.com/Jinkogule/Filhos-do-Coracao/blob/main/composer.json)**
 
-#### **Banco de Dados**
-- **Atualmente:** ✅ **[MariaDB 10.6.19](https://mariadb.org/)**
-- **Anteriormente:** ❌ **[PostgreSQL 16.3](https://www.postgresql.org/)** (até [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
+### **Banco de Dados**
 
-#### **Hospedagem**
-- **Atualmente:** ✅ **[InfinityFree](https://www.infinityfree.com/)**  →  **[Filhos do Coração](https://filhos-do-coracao.free.nf)**    
-- **Anteriormente:** ❌ **[Heroku](https://www.heroku.com/)** (até [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
+- **Atualmente**
+  - ✅ **[MariaDB 10.6.19](https://mariadb.org/)**
 
-#### **Serviços e Add-ons**
+- **Anteriormente**
+  - ❌ **[PostgreSQL 16.3](https://www.postgresql.org/)** (até a versão [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
 
--   **[AWS S3](https://aws.amazon.com/pt/s3/)**
--   **[Heroku Postgres](https://devcenter.heroku.com/articles/heroku-postgresql)** ❌ (até [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
+### **Hospedagem**
+
+- **Atualmente**
+  - ✅ **[InfinityFree](https://www.infinityfree.com/)**  →  **[Filhos do Coração](https://filhos-do-coracao.free.nf)**
+
+- **Anteriormente**
+  - ❌ **[Heroku](https://www.heroku.com/)** (até a versão [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
+
+- **Atualmente**
+  - ✅ **[AWS S3](https://aws.amazon.com/pt/s3/)**
+
+- **Anteriormente**
+  - ❌ **[Heroku Postgres](https://devcenter.heroku.com/articles/heroku-postgresql)** (até a versão [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
 
 ## ✒ Autor
 
-<img src="https://avatars.githubusercontent.com/u/52849575?v=4" width="100px;" alt=""/>
-
-[![Linkedin Badge](https://img.shields.io/badge/-Lucas%20Pimenta-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-pimenta-0663671b1/)](https://www.linkedin.com/in/lucas-pimenta-0663671b1/) 
-[![Gmail Badge](https://img.shields.io/badge/-lucaspimenta21@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lucaspimenta21@gmail.com)](mailto:lucaspimenta21@gmail.com)
+<table>
+  <tr>
+    <td align="center">
+      Lucas Pimenta
+      <br>
+      <a href="https://github.com/Jinkogule">
+        <img src="https://avatars.githubusercontent.com/u/52849575?v=4" width="100px;" alt="Lucas Pimenta"/>
+      </a>
+      <br>
+      <a href="https://github.com/Jinkogule">
+        <img src="https://img.shields.io/badge/-Github-black?style=flat-square&logo=Github&logoColor=white">
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## 📝 Licença
 
-Este projeto está sob a licença [MIT](./LICENSE).
+Este projeto está sob a licença **[MIT](./LICENSE)**.
