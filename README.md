@@ -28,7 +28,7 @@ O sistema fornece um guia completo sobre o processo de adoção, detalhando toda
 
 O projeto foi criado como parte da disciplina Gerência de Projeto e Manutenção de Software, com o objetivo de elaborar um relatório detalhado que inclui o plano de comunicação, plano de riscos, estratégias de monitoramento e controle, além do plano de gerência e configuração utilizados no desenvolvimento do software. O relatório também destacou as lições aprendidas e inovações implementadas que foram além do escopo original.
 
-Projeto disponível em: https://filhos-do-coracao.free.nf.
+Projeto disponível em: **https://filhos-do-coracao.free.nf**.
 
 ## 📋 Documentação
 
@@ -41,7 +41,7 @@ Projeto disponível em: https://filhos-do-coracao.free.nf.
 
 ## 🛠 Tecnologias
 
-### **Website**  ([PHP](https://www.php.net/)  +  [Laravel](https://laravel.com/))
+### **Website**  **([PHP](https://www.php.net/)**  +  **[Laravel](https://laravel.com/))**
 
 -   **[PHP 8.3](https://www.php.net/)**
 -   **[Laravel 8.8](https://laravel.com/)**
@@ -64,6 +64,8 @@ Projeto disponível em: https://filhos-do-coracao.free.nf.
 
 - **Anteriormente**
   - ❌ **[Heroku](https://www.heroku.com/)** (até a versão [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
+
+### **Serviços e Add-ons**
 
 - **Atualmente**
   - ✅ **[AWS S3](https://aws.amazon.com/pt/s3/)**
