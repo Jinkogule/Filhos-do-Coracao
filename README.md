@@ -55,7 +55,7 @@ Projeto disponível em: **https://filhos-do-coracao.free.nf**.
   - ✅ **[MariaDB 10.6.19](https://mariadb.org/)**
 
 - **Anteriormente**
-  - ❌ **[PostgreSQL 16.3](https://www.postgresql.org/)** (até a versão [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
+  - ❌ **[PostgreSQL 16.3](https://www.postgresql.org/)** (até a versão **[`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0)**)
 
 ### **Hospedagem**
 
@@ -63,7 +63,7 @@ Projeto disponível em: **https://filhos-do-coracao.free.nf**.
   - ✅ **[InfinityFree](https://www.infinityfree.com/)**  →  **[Filhos do Coração](https://filhos-do-coracao.free.nf)**
 
 - **Anteriormente**
-  - ❌ **[Heroku](https://www.heroku.com/)** (até a versão [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
+  - ❌ **[Heroku](https://www.heroku.com/)** (até a versão **[`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0)**)
 
 ### **Serviços e Add-ons**
 
@@ -71,7 +71,7 @@ Projeto disponível em: **https://filhos-do-coracao.free.nf**.
   - ✅ **[AWS S3](https://aws.amazon.com/pt/s3/)**
 
 - **Anteriormente**
-  - ❌ **[Heroku Postgres](https://devcenter.heroku.com/articles/heroku-postgresql)** (até a versão [`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0))
+  - ❌ **[Heroku Postgres](https://devcenter.heroku.com/articles/heroku-postgresql)** (até a versão **[`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0)**)
 
 ## ✒ Autor
 
