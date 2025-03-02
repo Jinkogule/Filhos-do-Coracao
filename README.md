@@ -1,5 +1,5 @@
 <div align="center">
-<img style="" src="https://github.com/Jinkogule/Filhos-do-Coracao/blob/main/public/images/favicon-logo.png" width="250px;" alt=""/>
+<img style="" src="https://github.com/Jinkogule/Filhos-do-Coracao/blob/main/public/imagens/favicon-logo.png" width="250px;" alt=""/>
 <br>
 
 [![Release](https://img.shields.io/github/v/release/Jinkogule/Filhos-do-Coracao?style=for-the-badge)](https://github.com/Jinkogule/BandejApp/releases)
