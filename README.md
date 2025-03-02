@@ -20,13 +20,15 @@
 
 ## 💻 Sobre o projeto
 
-O Filhos do Coração é um software desenvolvido para auxiliar no processo de adoção de crianças. Ele apresenta uma lista de crianças disponíveis para adoção, permitindo que os usuários verifiquem informações como nome, idade, localização, estado de saúde, além de fotos e vídeos. Os candidatos a pais podem selecionar uma criança e realizar o processo de adoção diretamente pelo sistema. Caso a adoção não funcione bem para os pais ou para a criança, o sistema possibilita o cancelamento do processo. Além disso, ele permite a adoção de famílias compostas por dois ou mais irmãos pelos mesmos pais.
+O **Filhos do Coração** é um software fictício desenvolvido para auxiliar no processo de adoção de crianças. Ele apresenta uma lista de crianças disponíveis para adoção, permitindo que os usuários verifiquem informações como nome, idade, localização, estado de saúde, além de fotos e vídeos. Os candidatos a pais podem selecionar uma criança e realizar o processo de adoção diretamente pelo sistema. Caso a adoção não funcione bem para os pais ou para a criança, o sistema possibilita o cancelamento do processo. Além disso, ele permite a adoção de famílias compostas por dois ou mais irmãos pelos mesmos pais.
 
 Cada criança possui uma tela de detalhes acessível através de seu respectivo perfil, onde os usuários podem conferir mais informações sobre sua história e condições de saúde. O software também apresenta casos de sucesso de adoções anteriores, incluindo depoimentos e imagens das famílias.
 
 O sistema fornece um guia completo sobre o processo de adoção, detalhando todas as etapas, prazos e documentação necessária. Além disso, disponibiliza textos e imagens de profissionais da área, depoimentos e canais para que os usuários tirem dúvidas sobre o processo.
 
 O projeto foi criado como parte da disciplina Gerência de Projeto e Manutenção de Software, com o objetivo de elaborar um relatório detalhado que inclui o plano de comunicação, plano de riscos, estratégias de monitoramento e controle, além do plano de gerência e configuração utilizados no desenvolvimento do software. O relatório também destacou as lições aprendidas e inovações implementadas que foram além do escopo original.
+
+**Observação:** Este projeto foi desenvolvido apenas como um exercício acadêmico para fins de aprendizagem. Portanto, não se trata de um sistema real de adoção de crianças.
 
 Projeto disponível em: **https://filhos-do-coracao.free.nf**.
 
