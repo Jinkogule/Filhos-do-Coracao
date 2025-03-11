@@ -4,44 +4,47 @@
 
 [![Release](https://img.shields.io/github/v/release/Jinkogule/Filhos-do-Coracao?style=for-the-badge)](https://github.com/Jinkogule/BandejApp/releases)
 [![License](https://img.shields.io/github/license/Jinkogule/Filhos-do-Coracao?style=for-the-badge)](LICENSE)<br>
-![Status](https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO%20|%20EM%20ATUALIZAÇÃO-brightgreen?style=for-the-badge)
+![Status](https://img.shields.io/badge/STATUS-COMPLETED%20|%20UPDATING-brightgreen?style=for-the-badge)
 </div>
 
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-documentação">Documentação</a> • 
- <a href="#-desenvolvimento">Desenvolvimento</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-autor">Autor</a> •
- <a href="#-licença">Licença</a>
+  <a href="#-about-the-project">About</a> •
+  <a href="#-documentation">Documentation</a> •
+  <a href="#-development">Development</a> •
+  <a href="#-technologies">Technologies</a> •
+  <a href="#-author">Author</a> •
+  <a href="#-license">License</a>
+  <br>
+  <a href="./README.pt-BR.md">Português (BR)</a> •
+  <a href="./README.md">English</a>
 </p>
 
 ---
 
-## 💻 Sobre o projeto
+## 💻 About the Project
 
-O **Filhos do Coração** é um software fictício desenvolvido para auxiliar no processo de adoção de crianças. Ele apresenta uma lista de crianças disponíveis para adoção, permitindo que os usuários verifiquem informações como nome, idade, localização, estado de saúde, além de fotos e vídeos. Os candidatos a pais podem selecionar uma criança e realizar o processo de adoção diretamente pelo sistema. Caso a adoção não funcione bem para os pais ou para a criança, o sistema possibilita o cancelamento do processo. Além disso, ele permite a adoção de famílias compostas por dois ou mais irmãos pelos mesmos pais.
+**Filhos do Coração** is a fictional software designed to assist in the child adoption process. It presents a list of children available for adoption, allowing users to check information such as name, age, location, health status, as well as photos and videos. Prospective parents can select a child and complete the adoption process directly through the system. If the adoption does not work well for the parents or the child, the system allows for the cancellation of the process. Additionally, it enables the adoption of sibling groups by the same parents.
 
-Cada criança possui uma tela de detalhes acessível através de seu respectivo perfil, onde os usuários podem conferir mais informações sobre sua história e condições de saúde. O software também apresenta casos de sucesso de adoções anteriores, incluindo depoimentos e imagens das famílias.
+Each child has a dedicated profile page where users can access more details about their history and health conditions. The software also showcases successful adoption cases, including testimonials and images of families.
 
-O sistema fornece um guia completo sobre o processo de adoção, detalhando todas as etapas, prazos e documentação necessária. Além disso, disponibiliza textos e imagens de profissionais da área, depoimentos e canais para que os usuários tirem dúvidas sobre o processo.
+The system provides a comprehensive guide on the adoption process, detailing all steps, deadlines, and required documentation. It also features articles and images from professionals in the field, testimonials, and channels for users to ask questions about the process.
 
-O projeto foi criado como parte da disciplina Gerência de Projeto e Manutenção de Software, com o objetivo de elaborar um relatório detalhado que inclui o plano de comunicação, plano de riscos, estratégias de monitoramento e controle, além do plano de gerência e configuração utilizados no desenvolvimento do software. O relatório também destacou as lições aprendidas e inovações implementadas que foram além do escopo original.
+The project was developed as part of the Project Management and Software Maintenance course, with the goal of creating a detailed report that includes the communication plan, risk management plan, monitoring and control strategies, as well as the management and configuration plan used during software development. The report also highlights lessons learned and innovations implemented beyond the original scope.
 
-**Observação:** Este projeto foi desenvolvido apenas como um exercício acadêmico para fins de aprendizagem. Portanto, não se trata de um sistema real de adoção de crianças.
+**Note:** This project was developed solely as an academic exercise for learning purposes. It is not a real child adoption system.
 
-Projeto disponível em: **https://filhos-do-coracao.free.nf**.
+Project available at: **https://filhos-do-coracao.free.nf**.
 
-## 📋 Documentação
+## 📋 Documentation
 
 -   **[Wiki](https://github.com/Jinkogule/Filhos-do-Coracao/wiki)**
 
-## 🧑🏻‍💻 Desenvolvimento
+## 🧑🏻‍💻 Development
 
--   **[Código fonte](https://github.com/Jinkogule/Filhos-do-Coracao)**
+-   **[Source Code](https://github.com/Jinkogule/Filhos-do-Coracao)**
 -   **[Issue Tracking](https://github.com/Jinkogule/Filhos-do-Coracao/issues)**
 
-## 🛠 Tecnologias
+## 🛠 Technologies
 
 ### **Website**  **([PHP](https://www.php.net/)**  +  **[Laravel](https://laravel.com/))**
 
@@ -49,33 +52,33 @@ Projeto disponível em: **https://filhos-do-coracao.free.nf**.
 -   **[Laravel 8.8](https://laravel.com/)**
 -   **[Composer 2.7](https://getcomposer.org/)**
 
-> Para mais detalhes sobre as configurações do projeto, veja o arquivo **[composer.json](https://github.com/Jinkogule/Filhos-do-Coracao/blob/main/composer.json)**
+> For more details on the project's configurations, refer to **[composer.json](https://github.com/Jinkogule/Filhos-do-Coracao/blob/main/composer.json)**.
 
-### **Banco de Dados**
+### **Database**
 
-- **Atualmente**
+- **Currently**
   - ✅ **[MariaDB 10.6.19](https://mariadb.org/)**
 
-- **Anteriormente**
-  - ❌ **[PostgreSQL 16.3](https://www.postgresql.org/)** (até a versão **[`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0)**)
+- **Previously**
+  - ❌ **[PostgreSQL 16.3](https://www.postgresql.org/)** (until version **[`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0)**)
 
-### **Hospedagem**
+### **Hosting**
 
-- **Atualmente**
+- **Currently**
   - ✅ **[InfinityFree](https://www.infinityfree.com/)**  →  **[Filhos do Coração](https://filhos-do-coracao.free.nf)**
 
-- **Anteriormente**
-  - ❌ **[Heroku](https://www.heroku.com/)** (até a versão **[`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0)**)
+- **Previously**
+  - ❌ **[Heroku](https://www.heroku.com/)** (until version **[`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0)**)
 
-### **Serviços e Add-ons**
+### **Services and Add-ons**
 
-- **Atualmente**
+- **Currently**
   - ✅ **[AWS S3](https://aws.amazon.com/pt/s3/)**
 
-- **Anteriormente**
-  - ❌ **[Heroku Postgres](https://devcenter.heroku.com/articles/heroku-postgresql)** (até a versão **[`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0)**)
+- **Previously**
+  - ❌ **[Heroku Postgres](https://devcenter.heroku.com/articles/heroku-postgresql)** (until version **[`v1.0.0`](https://github.com/Jinkogule/Filhos-do-Coracao/releases/tag/v1.0.0)**)
 
-## ✒ Autor
+## ✒ Author
 
 <table>
   <tr>
@@ -93,6 +96,6 @@ Projeto disponível em: **https://filhos-do-coracao.free.nf**.
   </tr>
 </table>
 
-## 📝 Licença
+## 📝 License
 
-Este projeto está sob a licença **[MIT](./LICENSE)**.
+This project is licensed under the **[MIT](./LICENSE)** license.
